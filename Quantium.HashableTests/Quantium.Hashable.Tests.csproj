@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>.NETCoreApp,Version=v5.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <StartupObject></StartupObject>
+
+    <AssemblyName>Quantium.Hashable.Tests</AssemblyName>
+
+    <RootNamespace>Quantium.Hashable.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

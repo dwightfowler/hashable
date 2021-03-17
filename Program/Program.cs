@@ -1,11 +1,4 @@
-# Quantium.Hashable Library
-Simplify your life with an automatic C# GetHashCode() implementation
-
-## Overview
-Tired of writing custom GetHashCode() functions. Now, all you need to do is apply the new [Hashable] attribute on whichever field or property you want to hash your object on.
-
-~~~~C#
-using System;
+﻿using System;
 using Quantium.Hashable;
 
 namespace Quantium.Hashable.Test
@@ -60,4 +53,3 @@ namespace Quantium.Hashable.Test
         }
     }
 }
-~~~~~

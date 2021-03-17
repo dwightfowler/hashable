@@ -11,7 +11,7 @@ namespace Quantium.Hashable
     /// </summary>
     public sealed class HashFunction : IHashFunction
     {
-        private const int initPrime = 2147483647 >> 7;
+        private const int initPrime = 2147483647;
 
         /// <summary>
         /// Calculate the hash of a byte
@@ -161,27 +161,47 @@ namespace Quantium.Hashable
             return Hash(val.ToCharArray()) ^ hash;
         }
 
+        /// <summary>
+        /// A variation on the Jenkins hash <br/>
+        /// <a href="https://en.wikipedia.org/wiki/Jenkins_hash_function"/>
+        /// </summary>
+        /// <param name="values"></param>
+        /// <returns></returns>
         private static int Hash(byte[] values)
         {
             uint hash = initPrime;
 
-            foreach (byte b in values)
+            foreach (byte key in values)
             {
-                hash = ((hash << 5) ^ hash) + b;
+                hash += key;
+                hash += hash << 10;
+                hash ^= hash >> 6;
             }
-
+            hash += hash << 3;
+            hash ^= hash >> 11;
+            hash += hash << 15;
             return (int)hash;
         }
 
+        /// <summary>
+        /// A variation on the Jenkins hash <br/>
+        /// <a href="https://en.wikipedia.org/wiki/Jenkins_hash_function"/>
+        /// </summary>
+        /// <param name="values"></param>
+        /// <returns></returns>
         private static int Hash(char[] values)
         {
             uint hash = initPrime;
 
-            foreach (char b in values)
+            foreach (char key in values)
             {
-                hash = ((hash << 5) ^ hash) + b;
+                hash += key;
+                hash += hash << 10;
+                hash ^= hash >> 6;
             }
-
+            hash += hash << 3;
+            hash ^= hash >> 11;
+            hash += hash << 15;
             return (int)hash;
         }
     }

@@ -9,4 +9,3 @@ C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5
 C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.dll
 C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\ref\Quantium.Hashable.Interfaces.dll
 C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.pdb
-C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.csprojAssemblyReference.cache
