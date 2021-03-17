@@ -1,0 +1,2 @@
+# hashable
+C# hashing library
