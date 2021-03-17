@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dwight Fowler</Authors>
+    <Company>Quantium Software, LLC.</Company>
+    <Product>Hashable Extension</Product>
+    <Copyright>Copyright 2021 - Dwight Fowler. All rights reserviced.</Copyright>
+    <RepositoryUrl>https://github.com/dwightfowler/hashable.git</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>Hash, Library, .NET Core</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>Apache-2.0.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/dwightfowler/hashable</PackageProjectUrl>
+    <PackageIcon>C# Library.jpg</PackageIcon>
+    <ApplicationIcon>C#  Library.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="properties\Apache-2.0.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="properties\C# Library.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

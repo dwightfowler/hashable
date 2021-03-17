@@ -1,0 +1,12 @@
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\bin\Debug\net5.0\Quantium.Hashable.Interfaces.deps.json
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\bin\Debug\net5.0\Quantium.Hashable.Interfaces.dll
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\bin\Debug\net5.0\ref\Quantium.Hashable.Interfaces.dll
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\bin\Debug\net5.0\Quantium.Hashable.Interfaces.pdb
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.AssemblyInfoInputs.cache
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.AssemblyInfo.cs
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.dll
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\ref\Quantium.Hashable.Interfaces.dll
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.pdb
+C:\Users\dwigh\source\repos\Hashable\Quantium.Hashable.Interfaces\obj\Debug\net5.0\Quantium.Hashable.Interfaces.csprojAssemblyReference.cache
